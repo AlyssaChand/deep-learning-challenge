@@ -27,5 +27,14 @@ The purpose of this analysis is to develop and optimize a deep learning model fo
       ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/dc2434b0-3c7c-484c-a092-f84f785685e6)
 
       ![Screenshot 2024-07-08 120219](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/04c5a5e3-22fe-4d90-b58a-fea5b5c1617e)
-    
+
+* Compiling, Training, and Evaluating the Model
+   * Neurons, Layers, and Activation Functions: The model was designed with three hidden layers.
+      * First hidden layer: 80 neurons, `relu` activation function
+      * Second hidden layer: 40 neurons, `sigmoid` activation function
+      * Third hidden layer: 20 neurons, `sigmoid` activation function
+   * The output layer uses a `sigmoid` activation function to output probabilities for the binary classification.
+ 
+  ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/4e6b9f8d-cd6a-4ce4-a246-3a67c53344ad)
+
 
