@@ -110,3 +110,7 @@ The final deep learning model for predicting the success of Alphabet Soup fundin
 
 The Random Forest classifier was also evaluated as an alternative model. Although it achieved slightly lower accuracy of 75.35%, it offers significant advantages in terms of robustness, interpretability, and ease of use, making it a valuable option for further exploration. Both models demonstrate strong potential in predicting funding application success, and future work could involve combining their strengths or exploring additional features to enhance predictive accuracy.
 
+## References
+
+IRS. Tax Exempt Organization Search Bulk Data Downloads. [Link](https://www.irs.gov/charities-non-profits/tax-exempt-organization-search-bulk-data-downloads)
+
