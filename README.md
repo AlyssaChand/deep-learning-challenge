@@ -7,6 +7,8 @@ These are the sources I used to help write my code: tensorflow.org, keras.io, sc
 ### Overview
 The purpose of this analysis is to develop and optimize a deep learning model for the Alphabet Soup charity organization to predict the success of funding applications. The model aims to classify whether an applicant will be successful based on various features extracted from the provided dataset.
 
+The optimized model that achieved an accuracy of 76.33% can be found in the file named `AlphabetSoupCharity_Optimization3.ipynb`. This file contains the final architecture and training process that led to the improved performance.
+
 ### Results
 
 * Data Preprocessing
