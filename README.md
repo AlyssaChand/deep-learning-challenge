@@ -1,6 +1,6 @@
 # deep-learning-challenge
 
-These are the sources I used to help write my code: tensorflow.org, keras.io, scikit-learn.org, google, and BCS — watching our cloud recordings, using instructor activity solutions and the class activities as references. 
+These are the sources I used to help write my code: tensorflow.org, keras.io, scikit-learn.org, google, and BCS — watching our cloud recordings, using instructor activity solutions and the class activities as references. I also used ChatGPT for guidance and clarification of concepts.
 
 ## Report on the Neural Network Model
 
