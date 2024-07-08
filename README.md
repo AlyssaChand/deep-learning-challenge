@@ -9,6 +9,9 @@ The purpose of this analysis is to develop and optimize a deep learning model fo
 
 The optimized model that achieved an accuracy of 76.33% can be found in the file named `AlphabetSoupCharity_Optimization3.ipynb`. This file contains the final architecture and training process that led to the improved performance. 
 
+Additionally, a Random Forest classifier was implemented using the same preprocessed data for comparison. While the neural network achieved 76.33% accuracy, the Random Forest classifier achieved an accuracy of 75.35%, which is slightly lower than the neural network model's performance. Details of the Random Forest implementation can be found in `AlphabetSoupCharity_Optimization_RandomForest.ipynb`.
+
+
 ### Results
 
 * Data Preprocessing
@@ -47,6 +50,13 @@ The optimized model that achieved an accuracy of 76.33% can be found in the file
  
      ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/4e6b9f8d-cd6a-4ce4-a246-3a67c53344ad)
 
+     #### Random Forest Classifier
+        * A Random Forest classifier was also implemented to compare with the neural network.
+        * The classifier was set with 100 estimators and a random state of 42 for reproducibility.
+    
+     ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/b977bb1a-d27e-42db-ac30-53056c0ee27b)
+
+
    * Target Model Performance
      
      The initial model did not meet the target accuracy of 75%. After optimization, the final model achieved an accuracy of 76.33% on the test data.
@@ -58,6 +68,13 @@ The optimized model that achieved an accuracy of 76.33% can be found in the file
      ##### Final Model
      
       ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/dc1416f2-c564-4a36-bfce-30d5120bae34)
+
+     #### Random Forest Classifier
+
+     The Random Forest classifier achieved an accuracy of 75.35% on the test data, indicating a robust performance close to that of the neural network model.
+
+      ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/103933e6-6e3d-4ac8-aeca-a6ee4a0aa369)
+
 
    * Optimization Steps:
      * Increased the number of neurons in the first hidden layer to 80.
@@ -81,3 +98,4 @@ The optimized model that achieved an accuracy of 76.33% can be found in the file
 
 The final deep learning model for predicting the success of Alphabet Soup funding applications was optimized to achieve an accuracy of 76.33%. This was accomplished by increasing the complexity of the model through additional neurons and layers, as well as adjusting the activation functions. Additionally, the `NAME` column, which was initially excluded, was brought back and processed to reduce the number of categories. While the model now exceeds the target accuracy of 75%, further enhancements could be explored, such as fine-tuning the number of epochs, further feature engineering, or experimenting with different model architectures. It is recommended to continue monitoring and updating the model with new data to maintain its predictive performance.
 
+The Random Forest classifier was also evaluated as an alternative model. Although it achieved slightly lower accuracy of 75.35%, it offers significant advantages in terms of robustness, interpretability, and ease of use, making them a valuable option for further exploration.
