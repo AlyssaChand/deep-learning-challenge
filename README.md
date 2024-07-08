@@ -19,7 +19,7 @@ Additionally, a Random Forest classifier was implemented using the same preproce
 
 ##### Random Forest Model
 
-   ![Screenshot 2024-07-08 153245](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/344151b9-c37d-4c28-b3f0-9fc54005f44a)
+   ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/4fdec715-ccae-4269-b06b-a2473b56add1)
 
 
 ### Results
