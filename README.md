@@ -11,6 +11,16 @@ The optimized model that achieved an accuracy of 76.33% can be found in the file
 
 Additionally, a Random Forest classifier was implemented using the same preprocessed data for comparison. While the neural network achieved 76.33% accuracy, the Random Forest classifier achieved an accuracy of 75.35%, which is slightly lower than the neural network model's performance. Details of the Random Forest implementation can be found in `AlphabetSoupCharity_Optimization_RandomForest.ipynb`.
 
+#### Difference in Dependencies
+
+##### Neural Network Model
+
+   ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/7f583a16-d75b-407c-b199-f1d4e60925bc)
+
+##### Random Forest Model
+
+   ![Screenshot 2024-07-08 153245](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/344151b9-c37d-4c28-b3f0-9fc54005f44a)
+
 
 ### Results
 
