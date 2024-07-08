@@ -52,3 +52,7 @@ The purpose of this analysis is to develop and optimize a deep learning model fo
 
      ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/4a97814c-950e-4cda-b283-9c9324fe2e98)
 
+### Summary
+
+The final deep learning model for predicting the success of Alphabet Soup funding applications was optimized to achieve an accuracy of 76.33%. This was accomplished by increasing the complexity of the model through additional neurons and layers, as well as adjusting the activation functions. While the model now exceeds the target accuracy of 75%, further enhancements could be explored, such as fine-tuning the number of epochs, further feature engineering, or experimenting with different model architectures. It is recommended to continue monitoring and updating the model with new data to maintain its predictive performance.
+
