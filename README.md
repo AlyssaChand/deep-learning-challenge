@@ -41,11 +41,11 @@ Additionally, a Random Forest classifier was implemented using the same preproce
  
       The `EIN` column was removed as it is an identifier and does not contribute to the prediction model. The `NAME` column, which was initially removed, was brought back and replaced with "Other" for values below a cutoff to reduce the number of categories.
  
-      ##### Initial Model
+      ##### Initial Neural Network Model
  
       ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/6c041a82-4261-496e-9bc5-5f0314717233)
 
-      ##### Final Model
+      ##### Final Neural Network Model
       
       ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/dc2434b0-3c7c-484c-a092-f84f785685e6)
 
@@ -71,11 +71,11 @@ Additionally, a Random Forest classifier was implemented using the same preproce
      
      The initial model did not meet the target accuracy of 75%. After optimization, the final model achieved an accuracy of 76.33% on the test data.
  
-     ##### Initial Model
+     ##### Initial Neural Network Model
  
       ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/946ce593-88cc-4b30-a61c-61f99a8e4163)
 
-     ##### Final Model
+     ##### Final Neural Network Model
      
       ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/dc1416f2-c564-4a36-bfce-30d5120bae34)
 
@@ -92,11 +92,11 @@ Additionally, a Random Forest classifier was implemented using the same preproce
      * Added a third hidden layer with 20 neurons.
      * Applied different activation functions (relu and sigmoid) to the hidden layers.
 
-     ##### Initial Model
+     ##### Initial Neural Network Model
      
      ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/90dafa31-4dd0-4410-aa1c-c45afd580e3d)
  
-     ##### Final Model
+     ##### Final Neural Network Model
  
      ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/4e6b9f8d-cd6a-4ce4-a246-3a67c53344ad)
 
