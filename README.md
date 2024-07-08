@@ -16,13 +16,13 @@ The purpose of this analysis is to develop and optimize a deep learning model fo
 
     * What variable(s) are the features for your model?
 
-      The features for the model include: NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS and ASK_AMT.
+      The features for the model include: `NAME`, `APPLICATION_TYPE`, `AFFILIATION`, `CLASSIFICATION`, `USE_CASE`, `ORGANIZATION`, `STATUS`, `INCOME_AMT`, `SPECIAL_CONSIDERATIONS` and `ASK_AMT`.
 
       ![Screenshot 2024-07-08 115932](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/5f3fc526-d403-4de1-bc50-d0eaeb59367b)
       
     * What variable(s) should be removed from the input data because they are neither targets nor features?
  
-      The EIN column was removed as it is an identifier and does not contribute to the prediction model. The NAME column was replaced with "Other" for values below a cutoff to reduce the number of categories.
+      The `EIN` column was removed as it is an identifier and does not contribute to the prediction model. The `NAME` column was replaced with "Other" for values below a cutoff to reduce the number of categories.
       
       ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/dc2434b0-3c7c-484c-a092-f84f785685e6)
 
