@@ -26,7 +26,13 @@ The optimized model that achieved an accuracy of 76.33% can be found in the file
       
     * What variable(s) should be removed from the input data because they are neither targets nor features?
  
-      The `EIN` column was removed as it is an identifier and does not contribute to the prediction model. The `NAME` column was replaced with "Other" for values below a cutoff to reduce the number of categories.
+      The `EIN` column was removed as it is an identifier and does not contribute to the prediction model. The `NAME` column, which was initially removed, was brought back and replaced with "Other" for values below a cutoff to reduce the number of categories.
+ 
+      ##### Initial Model
+ 
+      ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/6c041a82-4261-496e-9bc5-5f0314717233)
+
+      ##### Final Model
       
       ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/dc2434b0-3c7c-484c-a092-f84f785685e6)
 
@@ -44,7 +50,13 @@ The optimized model that achieved an accuracy of 76.33% can be found in the file
    * Target Model Performance
      
      The initial model did not meet the target accuracy of 75%. After optimization, the final model achieved an accuracy of 76.33% on the test data.
+ 
+     ##### Initial Model
+ 
+      ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/946ce593-88cc-4b30-a61c-61f99a8e4163)
 
+     ##### Final Model
+     
       ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/dc1416f2-c564-4a36-bfce-30d5120bae34)
 
    * Optimization Steps:
@@ -52,11 +64,20 @@ The optimized model that achieved an accuracy of 76.33% can be found in the file
      * Increased the number of neurons in the second hidden layer to 40.
      * Added a third hidden layer with 20 neurons.
      * Applied different activation functions (relu and sigmoid) to the hidden layers.
+
+     ##### Initial Model
+     
+     ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/90dafa31-4dd0-4410-aa1c-c45afd580e3d)
+ 
+     ##### Final Model
+ 
+     ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/4e6b9f8d-cd6a-4ce4-a246-3a67c53344ad)
+
      * Implemented a callback to save the model's weights every five epochs.
 
      ![image](https://github.com/AlyssaChand/deep-learning-challenge/assets/151655013/4a97814c-950e-4cda-b283-9c9324fe2e98)
 
 ### Summary
 
-The final deep learning model for predicting the success of Alphabet Soup funding applications was optimized to achieve an accuracy of 76.33%. This was accomplished by increasing the complexity of the model through additional neurons and layers, as well as adjusting the activation functions. While the model now exceeds the target accuracy of 75%, further enhancements could be explored, such as fine-tuning the number of epochs, further feature engineering, or experimenting with different model architectures. It is recommended to continue monitoring and updating the model with new data to maintain its predictive performance.
+The final deep learning model for predicting the success of Alphabet Soup funding applications was optimized to achieve an accuracy of 76.33%. This was accomplished by increasing the complexity of the model through additional neurons and layers, as well as adjusting the activation functions. Additionally, the `NAME` column, which was initially excluded, was brought back and processed to reduce the number of categories. While the model now exceeds the target accuracy of 75%, further enhancements could be explored, such as fine-tuning the number of epochs, further feature engineering, or experimenting with different model architectures. It is recommended to continue monitoring and updating the model with new data to maintain its predictive performance.
 
