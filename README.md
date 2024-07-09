@@ -9,7 +9,7 @@ The purpose of this analysis is to develop and optimize a deep learning model fo
 
 The optimized model that achieved an accuracy of 76.33% can be found in the file named `AlphabetSoupCharity_Optimization3.ipynb`. This file contains the final architecture and training process that led to the improved performance. 
 
-Additionally, a Random Forest classifier was implemented using the same preprocessed data for comparison. While the neural network achieved 76.33% accuracy, the Random Forest classifier achieved an accuracy of 75.35%, which is slightly lower than the neural network model's performance. Details of the Random Forest implementation can be found in `AlphabetSoupCharity_Optimization_RandomForest.ipynb`.
+Additionally, a Random Forest classifier, which is not a deep learning model, was implemented using the same preprocessed data for comparison. While the neural network achieved 76.33% accuracy, the Random Forest classifier achieved an accuracy of 75.35%, which is slightly lower than the neural network model's performance. Details of the Random Forest implementation can be found in `AlphabetSoupCharity_Optimization_RandomForest.ipynb`.
 
 #### Difference in Dependencies
 
@@ -108,7 +108,9 @@ Additionally, a Random Forest classifier was implemented using the same preproce
 
 The final deep learning model for predicting the success of Alphabet Soup funding applications was optimized to achieve an accuracy of 76.33%. This was accomplished by increasing the complexity of the model through additional neurons and layers, as well as adjusting the activation functions. Additionally, the `NAME` column, which was initially excluded, was brought back and processed to reduce the number of categories. While the model now exceeds the target accuracy of 75%, further enhancements could be explored, such as fine-tuning the number of epochs, further feature engineering, or experimenting with different model architectures. It is recommended to continue monitoring and updating the model with new data to maintain its predictive performance.
 
-The Random Forest classifier was also evaluated as an alternative model. Although it achieved slightly lower accuracy of 75.35%, it offers significant advantages in terms of robustness, interpretability, and ease of use, making it a valuable option for further exploration. Both models demonstrate strong potential in predicting funding application success, and future work could involve combining their strengths or exploring additional features to enhance predictive accuracy.
+The Random Forest classifier was also evaluated as an alternative model. Although it achieved slightly lower accuracy of 75.35%, it offers significant advantages in terms of robustness, interpretability, simplicity, and ease of use, making it a valuable option for further exploration. While neural networks can capture more complex patterns and interactions in the data due to their deep architecture, they also come with increased complexity, the need for extensive hyperparameter tuning, and a higher risk of overfitting. Random Forests, on the other hand, provide a robust, interpretable, and efficient alternative, particularly useful as a baseline or when resources are limited.
+
+Both models demonstrate strong potential in predicting funding application success, and future work could involve combining their strengths or exploring additional features to enhance predictive accuracy.
 
 ## References
 
